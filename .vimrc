@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " highlight column after 'textwidth'
- set colorcolumn=80
+ set colorcolumn=120
 " enable syntax highlighting
 syntax on
 
@@ -83,7 +83,7 @@ filetype plugin indent on    " required
 "
 "*****************************************************************************"
 " NERDTree
-let g:NERDTreeWinSize=18
+let g:NERDTreeWinSize=20
 " Start NERDTree and leave the cursor in it.
 autocmd VimEnter * NERDTree
 
